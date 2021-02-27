@@ -11,7 +11,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		<!-- CSS defer -->
+			<noscript>
+				<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+			</noscript>
 
 		<!-- Favicon -->
 			<link rel="shortcut icon" href="images/favicon/favicon.ico">
@@ -466,11 +469,20 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<!-- <script src="assets/js/jquery.poptrox.min.js"></script> -->
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<!-- <script src="assets/js/util.js"></script> -->
 			<script src="assets/js/main.js"></script>
-			
+
+			<!-- CSS defer -->
+			<script type="text/javascript">
+				var giftofspeed = document.createElement('link');
+				giftofspeed.rel = 'stylesheet';
+				giftofspeed.href = 'assets/css/main.css';
+				giftofspeed.type = 'text/css';
+				var godefer = document.getElementsByTagName('link')[0];
+				godefer.parentNode.insertBefore(giftofspeed, godefer);
+			</script>
 	</body>
 </html>
