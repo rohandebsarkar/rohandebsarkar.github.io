@@ -42,7 +42,7 @@ jobs:
           # The path to the root of the website
           path-to-root: . # default is .
           # The url of your webpage
-          base-url-path: https://github.com/rohandebsarkar/rohandebsarkar.github.io/ # default is https://web.address.of.your.nifty.website/
+          base-url-path: https://rohandebsarkar.github.io/ # default is https://web.address.of.your.nifty.website/
           # Indicates whether to include html files in the sitemap.
           include-html: true # default is true
           # Indicates whether to include pdf files in the sitemap.
