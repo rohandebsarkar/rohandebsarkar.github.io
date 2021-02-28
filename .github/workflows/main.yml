@@ -40,7 +40,7 @@ jobs:
         uses: cicirello/generate-sitemap@v1.6.1
         with:
           # The path to the root of the website
-          path-to-root: .# default is .
+          path-to-root: . # default is .
           # The url of your webpage
           base-url-path: https://github.com/rohandebsarkar/rohandebsarkar.github.io/ # default is https://web.address.of.your.nifty.website/
           # Indicates whether to include html files in the sitemap.
