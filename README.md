@@ -1,6 +1,5 @@
 # rohandebsarkar.github.io
-![preview](https://user-images.githubusercontent.com/50144004/109384341-2742e600-7912-11eb-81e4-5dc740fe1d6b.png)
-
+![preview](https://user-images.githubusercontent.com/50144004/109414737-76ece480-79da-11eb-9139-55ce0cbc50e7.png)
 
 ## Credits
 1. Webpage Design : [HTML5 UP](https://html5up.net/strata)
