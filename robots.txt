@@ -1,3 +1,4 @@
-User-agent: * 
+User-agent: *
 Disallow:
+Disallow: /resume/
 Sitemap: https://rohandebsarkar.github.io/sitemap.xml
