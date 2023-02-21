@@ -8,7 +8,7 @@ clone:
 pipeline:
   # Build hugo static files
   build:
-    image: klakegg/hugo
+    image: klakegg/hugo:ext-alpine-ci
     commands:
       - hugo --minify
     when:
