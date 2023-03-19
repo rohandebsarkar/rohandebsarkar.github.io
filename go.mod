@@ -4,5 +4,5 @@ go 1.19
 
 require (
 	github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4 // indirect
-	github.com/rohandebsarkar/academic-folio v0.0.0-20230221180308-5e51a324e872 // indirect
+	github.com/rohandebsarkar/academic-folio v0.0.0-20230224143952-a52cdee1f086 // indirect
 )
