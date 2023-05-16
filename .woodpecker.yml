@@ -20,17 +20,18 @@ pipeline:
     secrets: [ mail, codeberg_token ]
     environment:
       - HUGO_OUTPUT=public
+      - DEPLOY_REPO=pages
     commands:
       # Git configuration
       - git config --global user.email $MAIL
       - git config --global user.name "Woodpecker CI"
-      - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git $CI_REPO_NAME
+      - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$DEPLOY_REPO.git $DEPLOY_REPO
       # Copy build step output to repository folder
-      - cp -ar $HUGO_OUTPUT/. $CI_REPO_NAME/
+      - cp -ar $HUGO_OUTPUT/. $DEPLOY_REPO/
       # Needed for custom domains
-      - cp .domains $CI_REPO_NAME || true # Ignore if it doesn't exist
+      - cp .domains $DEPLOY_REPO || true # Ignore if it doesn't exist
       # Commit and push all static files with pipeline started timestamp
-      - cd $CI_REPO_NAME
+      - cd $DEPLOY_REPO
       - git add .
       - git commit -m "Woodpecker CI ${CI_BUILD_CREATED}"
       - git push
