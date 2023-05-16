@@ -25,7 +25,7 @@ pipeline:
       # Git configuration
       - git config --global user.email $MAIL
       - git config --global user.name "Woodpecker CI"
-      - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$DEPLOY_REPO.git $DEPLOY_REPO
+      - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO_OWNER/$DEPLOY_REPO.git $DEPLOY_REPO
       # Copy build step output to repository folder
       - cp -ar $HUGO_OUTPUT/. $DEPLOY_REPO/
       # Needed for custom domains
