@@ -4,28 +4,28 @@ main:
   weight: 1
 
 - name: Curriculum Vitae
-  url: /cv/
-  weight: 4
+  url: https://rohandebsarkar.github.io/.resume/resume.pdf
+  weight: 2
 
 - name: Projects
   url: /projects/
-  weight: 5
+  weight: 3
 
 social:
 - name: email
-  url: mailto:email@example.com
+  url: rohandebsarkar@protonmail.com
   weight: 1
   params:
     icon: fas fa-envelope
 
 - name: LinkedIn
-  url: https://www.linkedin.com/username
+  url: https://www.linkedin.com/in/rohandebsarkar
   weight: 2
   params:
     icon: fab fa-linkedin
 
 - name: GitHub
-  url: https://github.com/username
+  url: https://github.com/rohandebsarkar
   weight: 3
   params:
     icon: fab fa-github
