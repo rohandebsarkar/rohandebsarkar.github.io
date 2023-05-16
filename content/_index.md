@@ -1,13 +1,15 @@
 ---
-title: Academic Folio
+title: Rohan Deb Sarkar
 
-profPic: prof_pic.jpg
+profPic: rohandebsarkar.svg
 ---
 
-**Albert Einstein** was a German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential physicists of all time. He is best known for developing the **_theory of relativity_**, but he also made important contributions to the development of **_quantum mechanics_**. Together **_relativity_** and **_quantum mechanics_** formed the two pillars of modern physics.
+Hello! this is Rohan Deb Sarkar. Welcome to my website.
 
-His **_mass–energy_** equivalence formula `E = mc²`, which arises from relativity theory, has been dubbed _"the world's most famous equation"_. His work is also known for its influence on the philosophy of science.
+I am currently an undergraduate student at the physics department of Ramakrishna Mission Vivekananda Centenary College, Rahara, Kolkata. While Physics is my major subject, Mathematics and Computer Science are my minor subjects.
 
-He received the 1921 Nobel Prize in Physics _"for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect"_, a pivotal step in the development of **_quantum theory_**. His intellectual achievements and originality resulted in _"Einstein"_ becoming synonymous with _"genius"_. **_Einsteinium_**, one of the synthetic elements in the periodic table, was named in his honor.
+I finished my senior secondary (XII Standard) schooling from International Public School, Kolkata. My major subjects of focus were Physics, Mathematics and Computer Science.
 
-_Source: Wikipedia, CC-BY-SA-3.0_
+I am dedicated to science and keen to utilize my knowledge in the best interests of science, humankind, and this planet. My interests include Physics, Computer Science, and a bit of Mathematics.
+
+I am seeking to research and learn about things that are unknown to me.

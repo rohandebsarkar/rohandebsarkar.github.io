@@ -1,9 +1,9 @@
-firstName: Albert
-lastName: Einstein
+firstName: Rohan Deb
+lastName: Sarkar
 
-email: einstein@example.org
+email: 
 
-description: Albert Einstein's personal website powered by the Academic Folio theme
+description: Undergarduate physics student at <a>Ramakrishna Mission Vivekananda Centenary College</a>
 
 tags: # these tags would be added as keywords in metadata for website
 - academic-folio
@@ -19,10 +19,10 @@ navbarTitle: true # displays the title in the navbar on non home pages
 footerLastUpdated: true
 
 recentPosts: 5 # number of recent posts to show in home page
-showRecentPosts: true
+showRecentPosts: false
 
 recentNews: 5 # number of recent news to show in home page
-showRecentNews: true
+showRecentNews: false
 
 socialNavbar: true # show social icons on navbar
 socialHomePage: true # show social icons on the home page

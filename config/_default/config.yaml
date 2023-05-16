@@ -1,11 +1,11 @@
-baseURL: https://academic-folio.netlify.app
+baseURL: https://rohandebsarkar.codeberg.page
 languageCode: en
-title: Academic Folio
-copyright: © Copyright 2023 The Academic Folio Contributors
+title: Rohan Deb Sarkar
+copyright: © Copyright 2023 Rohan Deb Sarkar
 
 # theme: academic-folio
 
-enableEmoji: true
+enableEmoji: false
 
 enableRobotsTXT: true
 
