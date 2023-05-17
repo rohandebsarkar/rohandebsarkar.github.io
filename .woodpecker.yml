@@ -33,7 +33,7 @@ pipeline:
       # Needed for custom domains
       - cp ../.domains . || true # Ignore if it doesn't exist
       - git add .
-      - git commit -m "Woodpecker CI build created from ${CI_COMMIT_SHA:0:7} [CI SKIP]"
+      - git commit --allow-empty -m "Woodpecker CI build created from ${CI_REPO}@${CI_COMMIT_SHA} [CI SKIP]"
       - git push
     when:
       event: push
