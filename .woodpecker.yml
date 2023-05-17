@@ -31,7 +31,7 @@ pipeline:
       # Copy build step output to repository folder
       - cp -ar ../$HUGO_OUTPUT/. .
       # Needed for custom domains
-      - cp .domains $DEPLOY_REPO || true # Ignore if it doesn't exist
+      - cp ../.domains . || true # Ignore if it doesn't exist
       - git add .
       - git commit -m "Woodpecker CI build created from ${CI_COMMIT_SHA:0:7} [CI SKIP]"
       - git push
