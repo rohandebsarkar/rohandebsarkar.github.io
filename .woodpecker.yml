@@ -23,17 +23,17 @@ pipeline:
       - DEPLOY_REPO=pages
     commands:
       # Git configuration
-      - git config --global user.email $MAIL
-      - git config --global user.name "Woodpecker CI"
+      - git config --global user.email ""
+      - git config --global user.name "Codeberg CI"
       - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO_OWNER/$DEPLOY_REPO.git $DEPLOY_REPO
+      - cd $DEPLOY_REPO
+      - git rm -r *
       # Copy build step output to repository folder
-      - cp -ar $HUGO_OUTPUT/. $DEPLOY_REPO/
+      - cp -ar ../$HUGO_OUTPUT/. .
       # Needed for custom domains
       - cp .domains $DEPLOY_REPO || true # Ignore if it doesn't exist
-      # Commit and push all static files with pipeline started timestamp
-      - cd $DEPLOY_REPO
       - git add .
-      - git commit -m "Woodpecker CI ${CI_BUILD_CREATED}"
+      - git commit -m "Woodpecker CI build created from ${CI_COMMIT_SHA:0:7} [CI SKIP]"
       - git push
     when:
       event: push
