@@ -9,6 +9,8 @@ enableEmoji: false
 
 enableRobotsTXT: true
 
+enableGitInfo: true
+
 markup:
   highlight:
     guessSyntax: true
