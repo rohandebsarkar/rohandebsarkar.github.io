@@ -28,3 +28,5 @@ socialNavbar: true # show social icons on navbar
 socialHomePage: true # show social icons on the home page
 
 colorTheme: blue # choose a theme from `data/themes` folder
+
+analyticsScript: <script async src="https://perpetuus.vercel.app/motus.js" data-website-id="fea030e7-3e19-4a29-86b7-6bef67af88be"></script>
