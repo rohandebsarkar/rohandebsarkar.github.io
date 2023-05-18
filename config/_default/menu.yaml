@@ -3,12 +3,12 @@ main:
   url: /posts/
   weight: 1
 
-- name: Curriculum Vitae
-  url: https://rohandebsarkar.github.io/.resume/resume.pdf
-  weight: 2
-
 - name: Projects
   url: /projects/
+  weight: 2
+
+- name: Curriculum Vitae
+  url: https://rohandebsarkar.github.io/.resume/resume.pdf
   weight: 3
 
 social:
