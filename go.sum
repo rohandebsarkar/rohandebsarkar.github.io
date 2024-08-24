@@ -2,3 +2,5 @@ github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4 h1:xfr9Si
 github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/rohandebsarkar/academic-folio v0.0.0-20230518081856-70fff5d0814c h1:9YEP90oDy10MRaYgUry95NL8dYNKqKMB+xnDBHi3K4c=
 github.com/rohandebsarkar/academic-folio v0.0.0-20230518081856-70fff5d0814c/go.mod h1:fFfPh3gkiDE3Bct46poAhZtUE/AxJnLmk1NlFOfA3rw=
+github.com/rohandebsarkar/academic-folio v0.0.0-20240823181714-56f4c14af6f7 h1:8hCjKxQmCANzPSdQRxnSnTFmqgA166buXH7otMb0Etc=
+github.com/rohandebsarkar/academic-folio v0.0.0-20240823181714-56f4c14af6f7/go.mod h1:fFfPh3gkiDE3Bct46poAhZtUE/AxJnLmk1NlFOfA3rw=
